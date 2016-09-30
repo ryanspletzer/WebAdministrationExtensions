@@ -128,7 +128,6 @@ function Out-AspNetRegIisProcessResult {
 }
 
 
-
 function Invoke-AspNetRegIis {
     [CmdletBinding()]
     param (
@@ -150,7 +149,6 @@ function Invoke-AspNetRegIis {
         Write-Debug -Message "[$((Get-Date).ToString())]: Exiting Invoke-AspNetRegIis"
     }
 }
-
 
 
 function Get-CaseSensitiveFileName {
