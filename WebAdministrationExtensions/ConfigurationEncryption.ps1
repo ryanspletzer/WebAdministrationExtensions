@@ -27,10 +27,8 @@ function Protect-IISConfigurationSection {
         Encrypts the machine.config instead of web.config.
     
     .INPUTS
-        Description of objects that can be piped to the script
 
     .OUTPUTS
-        Description of objects that are output by the script
 
     .EXAMPLE
         Example of how to run the script
