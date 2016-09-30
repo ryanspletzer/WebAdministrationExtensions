@@ -28,7 +28,7 @@ function New-AspNetRegIisProcess {
     #>
     [CmdletBinding()]
     [OutputType([System.Diagnostics.Process])]
-    param(
+    param (
         [Parameter(Mandatory=$true)]
         [ValidateNotNullOrEmpty()]
         [String]
@@ -89,7 +89,7 @@ function Out-AspNetRegIisProcessResult {
 
     #>
     [CmdletBinding()]
-    param(
+    param (
         [Parameter(Mandatory=$true)]
         [ValidateNotNull()]
         [Int32] 
@@ -131,7 +131,7 @@ function Out-AspNetRegIisProcessResult {
 
 function Invoke-AspNetRegIis {
     [CmdletBinding()]
-    param(
+    param (
         [Parameter(Mandatory=$true)]
         [ValidateNotNullOrEmpty()]
         [String]
@@ -182,7 +182,7 @@ function Get-CaseSensitiveFileName {
     #>
     [CmdletBinding()]
     [OutputType([String])]
-    param(
+    param (
         [Parameter(Mandatory=$true)]
         [ValidateNotNullOrEmpty()]
         [String]
@@ -228,7 +228,7 @@ function Rename-WebConfigToTempWebConfig {
 
     #>
     [CmdletBinding()]
-    param(
+    param (
         [Parameter(Mandatory=$true)]
         [ValidateNotNullOrEmpty()]
         [String]
@@ -279,7 +279,7 @@ function Rename-WebTempConfigToWebConfig {
 
     #>
     [CmdletBinding()]
-    param(
+    param (
         [Parameter(Mandatory=$true)]
         [ValidateNotNullOrEmpty()]
         [String]
@@ -328,7 +328,7 @@ function Rename-NonstandardConfigToWebConfig {
     #>
     [CmdletBinding()]
     [OutputType([String])]
-    param(
+    param (
         [Parameter(Mandatory=$true)]
         [ValidateNotNullOrEmpty()]
         [String]
@@ -376,7 +376,7 @@ function Rename-WebConfigToNonstandardConfig {
 
     #>
     [CmdletBinding()]
-    param(
+    param (
         [Parameter(Mandatory=$true)]
         [ValidateNotNullOrEmpty()]
         [String]
